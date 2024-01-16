@@ -5,34 +5,40 @@ const sol = require('../Solutions/' + filename);
 require('mocha-sinon');
 
 describe('JS_Fun_Practice', function () {
+  // First Solution.
   describe('identity()', function () {
-    it('takes an argument and returns that argument', function () {
-      assert.equal(sol.identity(3), 3);
+    it('takes an argument and returns that argument.', function () {
+      assert.equal(sol.identity(10), 10);
     });
   });
-  describe('addb(a,b)', function () {
-    it('takes two numbers and returns their sum', function () {
-      assert.equal(sol.addb(3, 4), 7);
+  // Second Solution
+  describe('addAnyNumber(numOne,numTwo)', function () {
+    it('takes two numbers and returns their sum.', function () {
+      assert.equal(sol.addAnyNumber(2, 4), 6);
     });
   });
-  describe('subb(a,b)', function () {
+  // Third Solution
+  describe('subtractTwoNumber(numOne,numTwo)', function () {
     it('takes two numbers and returns their difference', function () {
-      assert.equal(sol.subb(3, 4), -1);
+      assert.equal(sol.subtractTwoNumber(5, 3), 2);
     });
   });
-  describe('mulb(a,b)', function () {
-    it('takes two numbers and returns their product', function () {
-      assert.equal(sol.mulb(3, 4), 12);
+  // Fourth Solution 
+  describe('multiplyTwoNumber(numOne,numTwo)', function () {
+    it('takes two numbers and returns their product.', function () {
+      assert.equal(sol.multiplyTwoNumber(4, 4), 16);
     });
   });
-  describe('minb(a,b)', function () {
-    it('takes two numbers and returns the smaller one', function () {
-      assert.equal(sol.minb(3, 4), 3);
+  // Fifth Solution
+  describe('minNumber(a,b)', function () {
+    it('takes two numbers and returns the smaller one.', function () {
+      assert.equal(sol.minNumber(2, 5), 2);
     });
   });
-  describe('maxb(a,b)', function () {
+  // Sixth Solution 
+  describe('maxNumber(numOne,numTwo)', function () {
     it('takes two numbers and returns the larger one', function () {
-      assert.equal(sol.maxb(3, 4), 4);
+      assert.equal(sol.maxNumber(1, 3), 3);
     });
   });
   describe('add(...nums)', function () {

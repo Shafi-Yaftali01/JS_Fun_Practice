@@ -9,35 +9,35 @@ const identity = (x) => x;
  * @param {Number} b
  * @return {number}
  **/
-const addb = (a, b) => a + b;
+const addAnyNumber = (numOne, numTwo) => numOne + numTwo;
 
 /**
  * @param {Number} a
  * @param {Number} b
  * @return {number}
  **/
-const subb = (a, b) => a - b;
+const subtractTwoNumber = (numOne, numTwo) => numOne - numTwo;
 
 /**
  * @param {Number} a
  * @param {Number} b
  * @return {number}
  **/
-const mulb = (a, b) => a * b;
+const multiplyTwoNumber = (numOne, numTwo) => numOne * numTwo;
 
 /**
  * @param {Number} a
  * @param {Number} b
  * @return {number}
  **/
-const minb = (a, b) => Math.min(a, b);
+const minNumber = (numOne, numTwo) => Math.min(numOne, numTwo);
 
 /**
  * @param {Number} a
  * @param {Number} b
  * @return {number}
  **/
-const maxb = (a, b) => Math.max(a, b);
+const maxNumber = (numOne, numTwo) => Math.max(numOne, numTwo);
 
 /**
  * @param {...numbers} nums
