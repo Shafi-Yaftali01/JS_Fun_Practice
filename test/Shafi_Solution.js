@@ -41,9 +41,10 @@ describe('JS_Fun_Practice', function () {
       assert.equal(sol.maxNumber(1, 3), 3);
     });
   });
-  describe('add(...nums)', function () {
-    it('is an add fuction that is generalized for any amount of arguments', function () {
-      assert.equal(sol.add(1, 2, 4), 7);
+  // Seventh Solution
+  describe('addNumbers(...nums)', function () {
+    it('is an add fuction that is generalized for any amount of arguments.', function () {
+      assert.equal(sol.addNumbers(2, 2, 4), 8);
     });
   });
   describe('sub(...nums)', function () {

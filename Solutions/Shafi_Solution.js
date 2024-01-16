@@ -44,7 +44,7 @@ const maxNumber = (numOne, numTwo) => Math.max(numOne, numTwo);
  * @return {number}
  **/
 
-const add = (...nums) => nums.reduce((sum, num) => sum + num);
+const addNumbers = (...nums) => nums.reduce((sum, num) => sum + num);
 
 /**
  * @param {...numbers} nums
