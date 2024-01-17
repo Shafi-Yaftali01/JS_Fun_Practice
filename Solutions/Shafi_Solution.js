@@ -50,13 +50,13 @@ const addNumbers = (...nums) => nums.reduce((sum, num) => sum + num);
  * @param {...numbers} nums
  * @return {number}
  **/
-const sub = (...nums) => nums.reduce((sum, num) => sum - num);
+const subtractNumbers = (...nums) => nums.reduce((sum, num) => sum - num);
 
 /**
  * @param {...numbers} nums
  * @return {number}
  **/
-const mul = (...nums) => nums.reduce((sum, num) => sum * num);
+const multiplyNumbers = (...nums) => nums.reduce((sum, num) => sum * num);
 
 /**
  * @param {...numbers} nums

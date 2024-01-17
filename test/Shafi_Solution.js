@@ -47,14 +47,16 @@ describe('JS_Fun_Practice', function () {
       assert.equal(sol.addNumbers(2, 2, 4), 8);
     });
   });
-  describe('sub(...nums)', function () {
-    it('is a sub fuction that is generalized for any amount of arguments', function () {
-      assert.equal(sol.sub(1, 2, 4), -5);
+
+  // Eight Solution. 
+  describe('subtractNumbers(...nums)', function () {
+    it('is a sub fuction that is generalized for any amount of arguments.', function () {
+      assert.equal(sol.subtractNumbers(1, 3, 4), -6);
     });
   });
-  describe('mul(...nums)', function () {
-    it('is a mul fuction that is generalized for any amount of arguments', function () {
-      assert.equal(sol.mul(1, 2, 4), 8);
+  describe('multiplyNumbers(...nums)', function () {
+    it('is a mul fuction that is generalized for any amount of arguments.', function () {
+      assert.equal(sol.multiplyNumbers(1, 3, 4), 12);
     });
   });
   describe('min(...nums)', function () {
